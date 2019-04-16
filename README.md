@@ -1,24 +1,10 @@
-# README
+# how to start
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- `bin/server`
 
-Things you may want to cover:
+- localhost:5000 を開く
 
-* Ruby version
+- curl で task を作成する場合は `curl -X POST localhost:5000/api/tasks -d 'task[name]=hoge'`
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://qiita.com/naoki85/items/51a8b0f2cbf949d08b11#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB
